@@ -1,0 +1,21 @@
+import PySide6.QtGui as QtGui
+import PySide6.QtCore as QtCore
+import PySide6.QtWidgets as QtWidgets
+
+from . resources_rc import *
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1413, 931)
+        MainWindow.setMinimumSize(QtCore.QSize(940, 560))
+        self.styleSheet = QtWidgets.QWidget(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setItalic(False)
+        #font.setWeight(50)
+
+font.setWeight
